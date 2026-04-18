@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="55" fill="#FFD54F" stroke="#F57F17" stroke-width="5"></circle>
+  
+  <!-- ушки -->
+  <polygon points="35,25 50,5 60,30" fill="#F57F17"></polygon>
+  <polygon points="85,25 70,5 60,30" fill="#F57F17"></polygon>
+  
+  <!-- глаза -->
+  <circle cx="45" cy="55" r="6" fill="#333"></circle>
+  <circle cx="75" cy="55" r="6" fill="#333"></circle>
+  
+  <!-- нос -->
+  <polygon points="60,65 55,72 65,72" fill="#E57373"></polygon>
+  
+  <!-- рот -->
+  <path d="M50 75 Q60 85 70 75" stroke="#333" stroke-width="3" fill="none"></path>
+</svg>

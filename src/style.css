@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive;
+  background: #fff3e0;
+  text-align: center;
+}
+
+.app-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.cat {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.cat-wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 350px;
+    height: 320px;
+    max-height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cat-img {
+    width: 350px;
+}
+
+.cat:active {
+  transform: scale(.7);
+}
+
+.cat.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.rage-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.2s ease;
+}
+
+.shop-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.shop-item {
+  background: #fff8e1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.inventory {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e1f5fe;
+  border-radius: 10px;
+}
+
+.inventory-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.inventory-item {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.inventory-item {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+
+.item-icon {
+  font-size: 30px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.score img {
+  width: 40px;
+}
+
+.rage-container {
+  position: relative;
+  width: 30px;
+  height: 150px;
+  border: 2px solid #333;
+  margin: 20px auto;
+  background: #eee;
+}
+
+.rage-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+.shop {
+  margin-top: 20px;
+  padding: 15px;
+  background: #ffe0b2;
+  border-radius: 15px;
+}
+
+.shop button {
+  display: block;
+  margin: 10px auto;
+}
