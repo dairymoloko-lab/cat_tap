@@ -8,6 +8,7 @@ export default function Inventory({ onUseItem, inventory, setInventory }) {
     const item = inventory.find(i => i.id === itemId);
     if (!item || item.count <= 0) return;
 
+
     onUseItem(itemId);
 
     const updated = inventory

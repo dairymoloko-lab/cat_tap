@@ -19,8 +19,10 @@ const [multiplier, setMultiplier] = useLocalStorage("multiplier", 1);
 const [autoClick, setAutoClick] = useLocalStorage("autoClick", 0);
 
 const handleUseItem = (itemId) => {
+   console.log("пытаемся изменить ренж", itemId)
   // 🪵 когтеточка (id: 4)
-  if (itemId === 4) {
+  if (itemId === 1) {
+    console.log("пытаемся изменить ренж")
     setRage(prev => Math.max(prev - prev * 0.1, 0));
   }
 
