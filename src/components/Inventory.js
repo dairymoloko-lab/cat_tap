@@ -1,8 +1,6 @@
-import useLocalStorage from "../hooks/useLocalStorage";
 import shopItems from "../shopItems";
 
 export default function Inventory({ onUseItem, inventory, setInventory }) {
-//   const [inventory, setInventory] = useLocalStorage("inventory", []);
 
   const handleUse = (itemId) => {
     const item = inventory.find(i => i.id === itemId);
