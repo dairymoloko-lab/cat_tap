@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import useLocalStorage from "./hooks/useLocalStorage";
 import Game from "./components/Game";
