@@ -1,4 +1,3 @@
-import useLocalStorage from "../hooks/useLocalStorage";
 import shopItems from "../shopItems";
 
 export default function Inventory({ onUseItem, inventory, setInventory }) {
